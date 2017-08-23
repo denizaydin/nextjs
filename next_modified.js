@@ -21393,7 +21393,7 @@ var nx = {
              * @returns {*}
              */
             getLink: function (id) {
-                return this.linkDictionary().getItem(id);
+                return this._MylinkDictionary().getItem(id);
             },
             /**
              * Highlight links
